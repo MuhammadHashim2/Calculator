@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashim's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./calculator.png" type="image/x-icon">
+</head>
+<body>
+
+<div class="center">
+    <div class="container">
+        <h3>CASIO</h3><div class="solar"></div>
+        <!-- <div class="screen"><h1 class="screenText"></h1></div> -->
+         <input readonly>
+        <div class="buttons">
+            <button onclick="clickappend('9')" class="nine" >9</button>
+            <button onclick="clickappend('/')" class="modulus" >/</button>
+            <button onclick="clicktoclear()" class="clear diff">C</button>
+            <button onclick="clickappend('+')" class="divide" >+</button>
+            <button onclick="clickappend('6')" class="six">6</button>
+            <button onclick="clickappend('7')" class="seven">7</button>
+            <button onclick="clickappend('8')" class="eight">8</button>
+            <button onclick="clickappend('*')" class="multiply">*</button>
+            <button onclick="clickappend('3')" class="three">3</button>
+            <button onclick="clickappend('4')" class="four">4</button>
+            <button onclick="clickappend('5')" class="five">5</button>    
+            <button onclick="clickappend('-')" class="subtract">-</button>
+            <button onclick="clickappend('0')" class="zero">0</button>
+            <button onclick="clickappend('1')" class="one">1</button>
+            <button onclick="clickappend('2')" class="two">2</button>
+            <button onclick="calculate()" class="add">=</button>
+        </div>
+</div>
+</div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
